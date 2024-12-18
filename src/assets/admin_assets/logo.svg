@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60">
+  <!-- Text -->
+  <text x="10" y="45" 
+        style="font-family: Arial, sans-serif; 
+               font-size: 48px; 
+               font-weight: bold; 
+               letter-spacing: 2px;">
+    FABFIT
+  </text>
+  
+  <!-- Dot -->
+  <circle cx="270" cy="45" r="4" fill="#FF69B4"/>
+</svg>
