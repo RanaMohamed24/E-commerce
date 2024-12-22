@@ -8,11 +8,288 @@
       "createdAt": "2024-12-17T21:19:51.549Z"
     },
     {
-      "id": 1734543259555,
+      "id": "1734543259555",
       "name": "Rana Mohamed",
       "email": "rana@gmail.com",
       "password": "123456",
       "createdAt": "2024-12-18T17:34:19.555Z"
+    },
+    {
+      "id": "1734881881925",
+      "name": "Amena Mahmoud",
+      "email": "amena@gmail.com",
+      "password": "123456",
+      "createdAt": "2024-12-22T15:38:01.925Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1734882115675,
+      "userId": "1734881881925",
+      "items": {
+        "aaaae": {
+          "M": 1,
+          "XL": 1
+        },
+        "aaaam": {
+          "S": 2
+        }
+      },
+      "totalAmount": 530,
+      "paymentMethod": "visa",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T15:41:55.675Z",
+      "createdAt": "2024-12-22T15:41:55.675Z"
+    },
+    {
+      "id": 1734883970604,
+      "userId": "1734881881925",
+      "items": {
+        "aaaaa": {
+          "M": 2
+        }
+      },
+      "totalAmount": 210,
+      "paymentMethod": "cod",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:12:50.604Z",
+      "createdAt": "2024-12-22T16:12:50.604Z"
+    },
+    {
+      "id": 1734884265356,
+      "userId": "1734881881925",
+      "items": {
+        "aaaat": {
+          "M": 1
+        }
+      },
+      "totalAmount": 200,
+      "paymentMethod": "cod",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:17:45.356Z",
+      "createdAt": "2024-12-22T16:17:45.356Z"
+    },
+    {
+      "id": 1734884382332,
+      "userId": "1734881881925",
+      "items": {
+        "aaaai": {
+          "L": 1
+        }
+      },
+      "totalAmount": 110,
+      "paymentMethod": "visa",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:19:42.332Z",
+      "createdAt": "2024-12-22T16:19:42.332Z"
+    },
+    {
+      "id": 1734884712844,
+      "userId": "1734881881925",
+      "items": {
+        "aaaaa": {
+          "M": 1
+        }
+      },
+      "totalAmount": 110,
+      "paymentMethod": "cod",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:25:12.844Z",
+      "createdAt": "2024-12-22T16:25:12.844Z"
+    },
+    {
+      "id": 1734884749324,
+      "userId": "1734881881925",
+      "items": {
+        "aaaab": {
+          "L": 1
+        }
+      },
+      "totalAmount": 210,
+      "paymentMethod": "cod",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:25:49.324Z",
+      "createdAt": "2024-12-22T16:25:49.324Z"
+    },
+    {
+      "id": 1734885046804,
+      "userId": "1734881881925",
+      "items": {
+        "aaaam": {
+          "M": 1
+        }
+      },
+      "totalAmount": 140,
+      "paymentMethod": "cod",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:30:46.804Z",
+      "createdAt": "2024-12-22T16:30:46.804Z"
+    },
+    {
+      "id": 1734885126996,
+      "userId": "1734881881925",
+      "items": {
+        "aaaai": {
+          "L": 1
+        }
+      },
+      "totalAmount": 110,
+      "paymentMethod": "visa",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:32:06.996Z",
+      "createdAt": "2024-12-22T16:32:06.996Z"
+    },
+    {
+      "id": 1734885248507,
+      "userId": "1734881881925",
+      "items": {
+        "aaaab": {
+          "L": 1
+        }
+      },
+      "totalAmount": 210,
+      "paymentMethod": "visa",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:34:08.507Z",
+      "createdAt": "2024-12-22T16:34:08.507Z"
+    },
+    {
+      "id": 1734885341807,
+      "userId": "1734881881925",
+      "items": {
+        "aaaaa": {
+          "L": 1
+        }
+      },
+      "totalAmount": 110,
+      "paymentMethod": "cod",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:35:41.807Z",
+      "createdAt": "2024-12-22T16:35:41.807Z"
+    },
+    {
+      "id": 1734885402152,
+      "userId": "1734881881925",
+      "items": {
+        "aaaaf": {
+          "XL": 1
+        }
+      },
+      "totalAmount": 150,
+      "paymentMethod": "cod",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:36:42.152Z",
+      "createdAt": "2024-12-22T16:36:42.152Z"
+    },
+    {
+      "id": 1734885432381,
+      "userId": "1734881881925",
+      "items": {
+        "aaaac": {
+          "L": 1
+        }
+      },
+      "totalAmount": 230,
+      "paymentMethod": "visa",
+      "shippingDetails": {
+        "firstName": "Amena",
+        "lastName": "Mahmoud",
+        "email": "amena@gmail.com",
+        "address": "Menoufia, Egypt",
+        "governorate": "Menofia",
+        "city": "Quwaysinā",
+        "phone": "01002985413"
+      },
+      "orderDate": "2024-12-22T16:37:12.381Z",
+      "createdAt": "2024-12-22T16:37:12.381Z"
     }
   ]
 }

@@ -9,7 +9,7 @@ const loadState = () => {
     if (savedState === null) {
       return {
         user: null,
-        isAuthenticated: false,  // not logged in
+        isAuthenticated: false,
       };
     }
     return JSON.parse(savedState);
@@ -28,8 +28,7 @@ const authSlice = createSlice({
   reducers: {
     loginSuccess: (state, action) => {
       state.isAuthenticated = true;
-      state.user = action.payload; // store user data
-      // save updated state to localStorage
+      state.user = action.payload;
       localStorage.setItem('authState', JSON.stringify(state));
     },
     signupSuccess: (state, action) => {
@@ -38,16 +37,20 @@ const authSlice = createSlice({
       localStorage.setItem('authState', JSON.stringify(state));
     },
     updateUserSuccess: (state, action) => {
-      // merge existing user data with updates
       state.user = { ...state.user, ...action.payload };
       localStorage.setItem('authState', JSON.stringify(state));
     },
     logout: (state) => {
-      // reset state to initial values
+      // Clear all relevant localStorage items
+      if (state.user?.id) {
+        localStorage.removeItem(`cart_${state.user.id}`);
+      }
+      localStorage.removeItem('authState');
+      localStorage.removeItem('ordersState');  // Remove orders state
+
+      // Reset state
       state.user = null;
       state.isAuthenticated = false;
-      // clear localStorage
-      localStorage.removeItem('authState');
     }
   }
 });

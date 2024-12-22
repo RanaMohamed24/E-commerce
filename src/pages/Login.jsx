@@ -7,7 +7,7 @@ import { authService } from "../services/authService";
 
 const Login = () => {
   // toggle between Login and Signup modes
-  const [currentState, setCurrentState] = useState("Sign Up");
+  const [currentState, setCurrentState] = useState("Login");
   
   // form data state
   const [formData, setFormData] = useState({

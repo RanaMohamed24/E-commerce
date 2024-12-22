@@ -3,11 +3,15 @@ import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import ShopContextProvider from "./context/ShopContext.jsx";
+import { Provider } from "react-redux";
+import { store } from "./store/store";
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-  <ShopContextProvider>
-  <App />
-  </ShopContextProvider>
-  </BrowserRouter>,
-)
+    <Provider store={store}>
+      <ShopContextProvider>
+        <App />
+      </ShopContextProvider>
+    </Provider>
+  </BrowserRouter>
+);
