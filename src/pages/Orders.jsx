@@ -19,7 +19,7 @@ const Orders = () => {
         const { orders } = await ordersService.getUserOrders(user.id);
         dispatch(fetchOrdersSuccess(orders));
       } catch (error) {
-        toast.error(error);
+        // toast.error(error);
       }
     };
 
